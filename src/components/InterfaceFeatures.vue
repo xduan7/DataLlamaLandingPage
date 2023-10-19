@@ -10,6 +10,7 @@ defineOptions({
   <div class="root center">
     <img class="interaction" src="../assets/images/chatBox.png"/>
     <img class="interaction" src="../assets/images/output.png"/>
+    <img class="interaction" src="../assets/images/output.png"/>
   </div>
 </template>
 
