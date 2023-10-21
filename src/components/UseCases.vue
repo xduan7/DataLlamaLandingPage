@@ -10,7 +10,7 @@ defineOptions({
   <div class="center lighter-bgc">
     <img class="use-cases-img" src="../assets/images/InterfaceFeatures/example00.png" alt="example">
     <img class="use-cases-img" src="../assets/images/InterfaceFeatures/example01.png" alt="example">
-    <img class="use-cases-img" src="../assets/images/InterfaceFeatures/example02.png" alt="example">
+    <img class="use-cases-img" src="../assets/images/InterfaceFeatures/example02_en.png" alt="example">
     <img class="use-cases-img" src="../assets/images/InterfaceFeatures/example03.png" alt="example">
     <img class="use-cases-img" src="../assets/images/InterfaceFeatures/example04.png" alt="example">
   </div>
@@ -22,10 +22,7 @@ defineOptions({
   font-weight: bold;
   color: var(--green-250);
 }
-.gray-font {
-  font-weight: bold;
-  color: var(--gray-600);
-}
+
 .lighter-bgc {
   background-color: var(--gray-150);
 }

@@ -23,11 +23,11 @@ const components = {
 
 <template>
   <div>
-  <span class="buttons" :class="{ active: currentModule === 'InterfaceFeatures' }"
+  <span class="buttons gap-line" :class="{ active: currentModule === 'InterfaceFeatures' }"
         @click="currentModule = 'InterfaceFeatures'">Interface Features</span>
-    <span class="buttons" :class="{ active: currentModule === 'UseCases' }"
+    <span class="buttons gap-line" :class="{ active: currentModule === 'UseCases' }"
           @click="currentModule = 'UseCases'">Use Cases</span>
-    <span class="buttons" :class="{ active: currentModule === 'TeamOverview' }"
+    <span class="buttons gap-line" :class="{ active: currentModule === 'TeamOverview' }"
           @click="currentModule = 'TeamOverview'">Team Overview</span>
     <span class="buttons" :class="{ active: currentModule === 'ContactUs' }"
           @click="currentModule = 'ContactUs'">Contact Us</span>
@@ -40,6 +40,7 @@ const components = {
 div {
   display: flex;
   align-items: center;
+  gap: 2px;
 }
 
 .buttons {
@@ -50,14 +51,16 @@ div {
   height: 4rem;
   padding: 0.5rem 1rem;
   background-color: var(--gray-200);
-  border: none;
   color: var(--gray-700);
   font-weight: bold;
   font-size: 1.5rem;
   cursor: pointer;
 }
-
+.gap-line {
+  border-right: 2px solid var(--gray-150);
+}
 .active {
+  font-size: 1.75rem;
   color:var(--gray-50);
   background-color: var(--green-200);
 }

@@ -40,13 +40,14 @@ html {
   --gray-100: #eeecf5;
   --gray-125: #e2e0eb;
   --gray-150: #d5d3df;
+  --gray-175: #d2d0dc;
   --gray-200: #cbc9d6;
   --gray-300: #a19daf;
   --gray-400: #716c82;
   --gray-500: #5a5666;
   --gray-600: #2d2a34;
   --gray-700: #201d25;
-  --green-25: #a4cad4;
+  --green-25: #afc6ce;
   --green-50: #86d7d9;
   --green-100: #6cc9ca;
   --green-150: #6cb5b8;
