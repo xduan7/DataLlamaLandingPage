@@ -1,15 +1,15 @@
 <script setup>
 import LandingHeader from '@/components/LandingHeader.vue';
 import HeroBanner from '@/components/HeroBanner.vue';
-// import AboutUs from '@/components/AboutUs.vue';
-import InterfaceFeatures from '@/components/InterfaceFeatures.vue';
+import SwitchPages from '@/views/SwitchPages.vue';
+import landingFooter from '@/components/LandingFooter.vue';
 </script>
 
 <template>
   <LandingHeader />
   <HeroBanner />
-  <!-- <AboutUs /> -->
-  <InterfaceFeatures />
+  <SwitchPages />
+  <landingFooter />
 </template>
 
 <style>

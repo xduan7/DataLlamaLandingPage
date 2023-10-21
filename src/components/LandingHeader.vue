@@ -9,11 +9,8 @@ defineOptions({
 
 const landingHeader = ref(null);
 const addChatHeaderBGColor = () => {
-  console.log("scrolling", landingHeader.value);
   if (landingHeader.value) {
-    console.log("scrollY", window.scrollY);
     if (window.scrollY > 1) {
-      console.log("add active");
       landingHeader.value.classList.add("active");
     } else {
       landingHeader.value.classList.remove("active");
