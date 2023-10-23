@@ -109,7 +109,9 @@ defineOptions({
 
   <!--  partners-->
     <div class="partners center">
-      <div class="partners-logo"></div>
+      <div class="partners-logo">
+        <img src="../assets/images/team/linkTimeCloud.png" alt="linkTimeCloud">
+      </div>
       <div class="key-partner-title center">Key Partner</div>
     </div>
   </div>
@@ -227,8 +229,8 @@ p {
 }
 .advisors .card {
   width: 35%;
-  height: 20rem;
-  padding: 0;
+  height: 18rem;
+  padding: 2rem 0 0 0;
   overflow: clip;
 }
 .partners {
@@ -236,10 +238,16 @@ p {
   overflow: clip;
 }
 .partners-logo{
+  display: grid;
+  place-items: center;
   width: 100%;
   height: 20rem;
   padding: 0;
   overflow: clip;
-  background-color: var(--gray-150)
+  background-color: var(--green-25)
+
+}
+.partners-logo img {
+  width: 70%;
 }
 </style>
