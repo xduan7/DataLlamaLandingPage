@@ -63,59 +63,65 @@ defineOptions({
   </div>
     <div class="core-team-title center">Core Team Members</div>
 
-  <div class="ads-partner center-row">
+
   <!--  advisors-->
-    <div class="advisors center">
-      <div class="advisors-card">
-        <div class="card center dark-bgc">
-          <span class="name green-font">Yong Liu</span>
-          <span class="occupation green-font">
-            University of Aizu<br>
-            Japan<br>
-            Professor<br>
-          </span>
-          <span class="experiment">
-            Applied Mathematics <br>
-            Artificial Intelligence<br>
-          </span>
-        </div>
-
-        <div class="card center light-bgc">
-          <span class="name green-font">Qiuxin Wu</span>
-          <span class="occupation green-font">
-            BISTU, China<br>
-            Professor<br>
-          </span>
-          <span class="experiment">
-            Big Data<br>
-            Artificial Intelligence<br>
-          </span>
-        </div>
-
-        <div class="card center dark-bgc">
-          <span class="name green-font">Dongfang Xu</span>
-          <span class="occupation green-font">
-          Harvard University<br>
-          Postdoc<br>
+  <div class="advisors center">
+    <div class="advisors-card">
+      <div class="card center dark-bgc">
+        <span class="name green-font">Yong Liu</span>
+        <span class="occupation green-font">
+          University of Aizu<br>
+          Japan<br>
+          Professor<br>
         </span>
-          <span class="experiment">
-        Natural Language <br>
-          Processing<br>
+        <span class="experiment">
+          Applied Mathematics <br>
+          Artificial Intelligence<br>
         </span>
-        </div>
       </div>
-      <div class="advisors-title center">Advisors</div>
-    </div>
 
-  <!--  partners-->
-    <div class="partners center">
-      <div class="partners-logo">
-        <img src="../assets/images/team/linkTimeCloud.png" alt="linkTimeCloud">
+      <div class="card center light-bgc">
+        <span class="name green-font">Qiuxin Wu</span>
+        <span class="occupation green-font">
+          BISTU, China<br>
+          Professor<br>
+        </span>
+        <span class="experiment">
+          Big Data<br>
+          Artificial Intelligence<br>
+        </span>
       </div>
-      <div class="key-partner-title center">Key Partner</div>
+
+      <div class="card center dark-bgc">
+        <span class="name green-font">Dongfang Xu</span>
+        <span class="occupation green-font">
+        Harvard University<br>
+        Postdoc<br>
+      </span>
+        <span class="experiment">
+      Natural Language <br>
+        Processing<br>
+      </span>
+      </div>
     </div>
+    <div class="advisors-title center">Advisors</div>
+  </div>
+
+<!--  partners-->
+  <div class="partners center">
+    <div class="partners-logo">
+      <img src="../assets/images/team/linkTimeCloud.png" alt="linkTimeCloud">
+      <img src="../assets/images/team/QiYunFang.png" alt="QiYunFang">
+      <img src="../assets/images/team/LuoJia.png" alt="LuoJia">
+      <img src="../assets/images/team/MetaRTC.png" alt="MetaRTC">
+      <img src="../assets/images/team/Telyes.png" alt="Telyes">
+      <img src="../assets/images/team/XinRuiYIng.png" alt="XinRuiYIng">
+      <img src="../assets/images/team/BaoZhi.png" alt="BaoZhi.png">
+    </div>
+    <div class="key-partner-title center">Key Partner</div>
   </div>
 </div>
+
 </template>
 
 <style scoped>
@@ -202,10 +208,7 @@ p {
   background-color: var(--green-200);
 }
 /* advisors & partner */
-.ads-partner{
-  width: 100%;
-  overflow: clip;
-}
+
 .advisors-title {
   width: 100%;
   font-size: 1.25rem;
@@ -224,7 +227,7 @@ p {
 }
 .advisors-card{
   display: flex;
-  width: 70vw;
+  width: 100vw;
   overflow: clip;
 }
 .advisors .card {
@@ -234,20 +237,21 @@ p {
   overflow: clip;
 }
 .partners {
-  width: 30vw;
+  width: 100vw;
   overflow: clip;
 }
 .partners-logo{
-  display: grid;
+  display: flex;
   place-items: center;
   width: 100%;
-  height: 20rem;
+  height: 10rem;
   padding: 0;
   overflow: clip;
-  background-color: var(--green-25)
+  background-color: var(--gray-250)
 
 }
 .partners-logo img {
-  width: 70%;
+  width: 10rem;
+  padding: 1rem;
 }
 </style>

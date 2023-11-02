@@ -42,6 +42,7 @@ html {
   --gray-150: #d5d3df;
   --gray-175: #d2d0dc;
   --gray-200: #cbc9d6;
+  --gray-250: #c3c0ce;
   --gray-300: #a19daf;
   --gray-400: #716c82;
   --gray-500: #5a5666;
